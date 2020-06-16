@@ -2,7 +2,7 @@
 
 <div class="container">
     <div class="row jumbotron" style="margin: 20px auto;">
-        <h1 style="text-align:center">Add a new comment <%= campground.name %></h1>
+        <h1 style="text-align:center">Add a comment <%= campground.name %></h1>
         <div class="" style="width:30%; margin:45px auto">
             <form action="/campgrounds/<%= campground._id %>/comments" method="POST">
                 <div class="form-group">
@@ -12,7 +12,7 @@
                     <button class="btn btn-lg btn-primary btn-block">Submit</button>
                 </div>
             </form>
-            <a href="/campgrounds"> go back</a>
+            <a href="/campgrounds"> back</a>
         </div>
     </div>
 </div>
