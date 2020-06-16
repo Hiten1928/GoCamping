@@ -1,3 +1,5 @@
+#Folders of Libraries
 node_modules/
 
-seeds.js/
+#Misc
+seeds.js
