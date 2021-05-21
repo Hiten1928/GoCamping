@@ -10,7 +10,7 @@ var passport = require("passport"),
   Campground = require("./models/campground"),
   Comment = require("./models/comment"),
   User = require("./models/user"),
-  seedDB = require("./seeds")
+  // seedDB = require("./seeds")
 
 var commentRoutes = require("./routes/comments"),
   campgroundsRoutes = require("./routes/campgrounds"),
